@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: lightblue;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.main {
+    background-color: lightgreen;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.footer {
+    background-color: lightcoral;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
